@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package review;
+
+option go_package = "../../internal/service/common/";
+
+message Review {
+  float outOfTen = 1;
+  string note = 2;
+}

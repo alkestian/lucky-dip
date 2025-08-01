@@ -1,0 +1,5 @@
+version: v1
+modules:
+  - path: api
+    name: buf.build/alkestian/lucky-dip
+
