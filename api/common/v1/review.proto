@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package common.v1;
+
+message Review {
+  float out_of_ten = 1;
+  string note = 2;
+}

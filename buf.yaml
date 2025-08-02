@@ -1,5 +1,9 @@
-version: v1
+version: v2
 modules:
   - path: api
-    name: buf.build/alkestian/lucky-dip
-
+lint:
+  use:
+    - STANDARD
+breaking:
+  use:
+    - FILE

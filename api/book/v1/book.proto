@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package book.v1;
+
+import "common/v1/review.proto";
+import "google/protobuf/timestamp.proto";
+
+message Book {
+  string title = 1;
+  string author = 2;
+  common.v1.Review review = 3;
+
+  google.protobuf.Timestamp updated_at = 4;
+}
